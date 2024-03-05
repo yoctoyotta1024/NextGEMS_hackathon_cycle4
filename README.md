@@ -1,9 +1,8 @@
-# Template for Good Python and C++ Scientific Project
+# NextGEMS Hackathon Cycle 4 Project
 
-This code is adapted from [this](https://juliadynamics.github.io/DrWatson.jl/stable) template for
-Julia Language to make a reproducible scientific project for Python and C++ code in light of the
-guidelines from [this](https://www.youtube.com/watch?v=x3swaMSCcYk) Good Scientific Code Workshop by
-George Datseris.
+Template used for this project is adapted from
+[this](https://github.com/yoctoyotta1024/GoodSciProjTemplate) template for good practices for
+reproducible scientific projects in Python and C++.
 
 ## Install
 To (locally) reproduce this project simply clone the repository.
@@ -33,5 +32,3 @@ Thank you and good luck!
 - Clara Bayley
 
 ## Acknowledgements
-- Lukas Kluft
-- George Datseris
