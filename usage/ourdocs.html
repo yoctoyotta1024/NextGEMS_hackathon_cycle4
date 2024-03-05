@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Our Tests" href="ourtests.html" /><link rel="prev" title="Getting Started" href="getstart.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Our Tests" href="ourtests.html" /><link rel="prev" title="Python Source Module" href="../src/src.html" />
 
     <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
-        <title>Our Docs - GoodSciProjTemplate 0.0.0 documentation</title>
+        <title>Our Docs - NextGEMS_hackathon_cycle4 0.0.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=362ab14a" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
@@ -124,7 +124,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">GoodSciProjTemplate 0.0.0 documentation</div></a>
+      <a href="../index.html"><div class="brand">NextGEMS_hackathon_cycle4 0.0.0 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -147,7 +147,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">GoodSciProjTemplate 0.0.0 documentation</span>
+  <span class="sidebar-brand-text">NextGEMS_hackathon_cycle4 0.0.0 documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -157,17 +157,13 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="getstart.html">Getting Started</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../src/index.html">Python Package</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Python Package</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../src/src.html">Python Source Module</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/yoctoyotta1024/NextGEMS_hackathon_cycle4.git">GitHub Repo</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Our Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ourtests.html">Our Tests</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../src_py/index.html">Python Package</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Python Package</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../src_py/mock.html">Python Mock Module</a></li>
-</ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../src_cxx/index.html">C++ Package</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of C++ Package</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../src_cxx/mock_cxx.html">C++ Mock Module</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/yoctoyotta1024/GoodSciProjTemplate.git">GitHub Repo</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact Us!</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
@@ -207,12 +203,9 @@
         <article role="main">
           <section id="our-docs">
 <h1>Our Docs<a class="headerlink" href="#our-docs" title="Link to this heading">#</a></h1>
-<p>Sphinx builds this documentation and we integrate C++ documentation built by Doxygen using the
-Breathe extension.</p>
-<p>You can build the documentation locally by building the Doxygen .xml files
-followed by the Sphinx .html files, e.g.</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>./docs<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>build<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>build/doxygen
-<span class="gp">$ </span>doxygen<span class="w"> </span>doxygen/doxygen.dox<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>make<span class="w"> </span>html
+<p>We use Sphinx to build documentation for this project in .html files.</p>
+<p>You can build the documentation locally e.g. by</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>./docs<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mkdir<span class="w"> </span>build<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>make<span class="w"> </span>html
 </pre></div>
 </div>
 <p>which you can then view in your preferred browser e.g.</p>
@@ -222,14 +215,6 @@ followed by the Sphinx .html files, e.g.</p>
 <section id="sphinx">
 <h2>Sphinx<a class="headerlink" href="#sphinx" title="Link to this heading">#</a></h2>
 <p><a class="reference external" href="https://www.sphinx-doc.org/en/master/">https://www.sphinx-doc.org/en/master/</a></p>
-</section>
-<section id="breathe">
-<h2>Breathe<a class="headerlink" href="#breathe" title="Link to this heading">#</a></h2>
-<p><a class="reference external" href="https://breathe.readthedocs.io/en/latest/">https://breathe.readthedocs.io/en/latest/</a></p>
-</section>
-<section id="doxygen">
-<h2>Doxygen<a class="headerlink" href="#doxygen" title="Link to this heading">#</a></h2>
-<p><a class="reference external" href="https://www.doxygen.nl">https://www.doxygen.nl</a></p>
 </section>
 <section id="contributing-to-our-documentation">
 <h2>Contributing to Our Documentation<a class="headerlink" href="#contributing-to-our-documentation" title="Link to this heading">#</a></h2>
@@ -252,14 +237,14 @@ more detail on a particular topic, please <a class="reference internal" href="co
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="getstart.html">
+          <a class="prev-page" href="../src/src.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Getting Started</div>
+                <div class="title">Python Source Module</div>
                 
               </div>
             </a>
@@ -296,8 +281,6 @@ more detail on a particular topic, please <a class="reference internal" href="co
             <ul>
 <li><a class="reference internal" href="#">Our Docs</a><ul>
 <li><a class="reference internal" href="#sphinx">Sphinx</a></li>
-<li><a class="reference internal" href="#breathe">Breathe</a></li>
-<li><a class="reference internal" href="#doxygen">Doxygen</a></li>
 <li><a class="reference internal" href="#contributing-to-our-documentation">Contributing to Our Documentation</a></li>
 </ul>
 </li>
