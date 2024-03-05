@@ -1,4 +1,6 @@
 name: myenv
+channels:
+  - conda-forge
 dependencies:
     - python>=3.9
     - pytest
@@ -6,3 +8,19 @@ dependencies:
     - pip
     - pip:
       - -r requirements.txt
+    - aiohttp
+    - cartopy
+    - cdo
+    - cmocean
+    - dask
+    - eccodes>=2.34.0
+    - healpy
+    - intake==0.7.0
+    - intake-esm
+    - intake-xarray
+    - ipykernel
+    - netcdf4
+    - pandas
+    - python-cdo
+    - python-eccodes
+    - zarr

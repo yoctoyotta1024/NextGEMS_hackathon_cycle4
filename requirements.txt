@@ -9,5 +9,5 @@ scipy
 matplotlib
 pre-commit
 xarray
-intake
 healpy
+zarr
