@@ -10,6 +10,7 @@ Clone NextGEMS_hackathon_cycle4's GitHub repository:
   $ git clone https://github.com/yoctoyotta1024/NextGEMS_hackathon_cycle4.git
 
 and install the pre-commit hooks:
+
 .. code-block:: console
 
   $ pre-commit install
