@@ -1,5 +1,5 @@
-Python Mock Module
-==================
+Python Source Module
+====================
 
 .. automodule:: libs.src.src
    :members:
