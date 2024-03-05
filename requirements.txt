@@ -3,9 +3,11 @@ sphinx
 furo
 sphinx_copybutton
 sphinxcontrib-bibtex
-breathe
 
 numpy
 scipy
 matplotlib
+pre-commit
 xarray
+intake
+healpy

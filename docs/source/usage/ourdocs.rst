@@ -1,16 +1,13 @@
 Our Docs
 ========
 
-Sphinx builds this documentation and we integrate C++ documentation built by Doxygen using the
-Breathe extension.
+We use Sphinx to build documentation for this project in .html files.
 
-You can build the documentation locally by building the Doxygen .xml files
-followed by the Sphinx .html files, e.g.
+You can build the documentation locally e.g. by
 
 .. code-block:: console
 
-  $ cd ./docs && mkdir build && mkdir build/doxygen
-  $ doxygen doxygen/doxygen.dox && make html
+  $ cd ./docs && mkdir build && make html
 
 which you can then view in your preferred browser e.g.
 
@@ -21,14 +18,6 @@ which you can then view in your preferred browser e.g.
 Sphinx
 ######
 https://www.sphinx-doc.org/en/master/
-
-Breathe
-#######
-https://breathe.readthedocs.io/en/latest/
-
-Doxygen
-#######
-https://www.doxygen.nl
 
 Contributing to Our Documentation
 #################################
