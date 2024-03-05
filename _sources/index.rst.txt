@@ -14,25 +14,19 @@ Welcome to some Documentation from NextGEMS cycle4 Hackathon!
    to the on-going code development. If you have queries related to
    this or if there is anything you wish to report please please :ref:`contact us! <contact>`.
 
-This library aims to be a template to make it easy and quick for you to incorporate best coding and
-scientific practises into your GitHub repositories. The template demonstrates:
-
-* what to include in file headers
-* how to document your Python and C++ code
-* how to make tests for your code (using Python)
-* how to liscence your code
-* how to make a citation for your code
-* things to include in .gitignore (e.g. large files like jupyter notebooks)
-* how to list the requirements of your code (i.e. dependencies) and make a Python environment .yml file
-* how to use pre-commit for code formatting (see https://pre-commit.com/)
-* how to use continuous integration (CI) to run your tests and publish your documentation on GitHub (see https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration)
-
 To (locally) reproduce this project, simply clone the repository. You will need to run
-``pre-commit install`` but other than that all the necessary packages for you to run & have fun with
-everything should work out of the box... If not, please raise an issue on the
-GitHub repository.
+``pre-commit install`` but other than that all the necessary packages for you to run & have fun
+should work given the environment.yml... If not, please raise an issue on the GitHub repository.
 
 Time to get involved! Check out the :doc:`getting started page<usage/getstart>`.
+
+Useful Links
+------------
+`Hackathon Starter Pack<https://pad.gwdg.de/nSKolAzGQY2zLz3oOr0QSQ?view>`_
+`EasyGEMS<https://easy.gems.dkrz.de/index.html>`_
+`List of variables' names<https://owncloud.gwdg.de/index.php/s/G6xEfuoHOZLB3Kt>`_
+`List of variables' locations (interactive)
+<https://swift.dkrz.de/v1/dkrz_b381d76e-63d7-4aeb-96f0-dfd91e102d40/nextgems_prefinal/nextgems_prefinal_output_anim.html>`
 
 Contents
 --------
