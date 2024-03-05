@@ -2,7 +2,7 @@
 Copyright (c) 2024 MPI-M, Clara Bayley
 
 
-* ----- NextGEMS_hackathon_cycle4 -----
+----- NextGEMS_hackathon_cycle4 -----
 File: test_101.py
 Project: tests
 Created Date: Tuesday 5th March 2024

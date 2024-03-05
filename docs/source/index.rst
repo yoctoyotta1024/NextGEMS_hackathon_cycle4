@@ -33,7 +33,6 @@ Useful Links
 
 * `Piotr Dziekan / NextGEMS_lowclouds project <https://gitlab.dkrz.de/b382446/nextgems_lowclouds>`_
 
-
 Contents
 --------
 .. toctree::
