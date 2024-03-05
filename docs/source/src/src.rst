@@ -1,7 +1,7 @@
 Python Mock Module
 ==================
 
-.. automodule:: libs.src_py.mock
+.. automodule:: libs.src.src
    :members:
    :undoc-members:
    :private-members:

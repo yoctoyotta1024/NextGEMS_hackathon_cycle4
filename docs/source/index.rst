@@ -1,9 +1,9 @@
-.. GoodSciProjTemplate documentation master file, based off sphinx-quickstart.
+.. NextGEMS_hackathon_cycle4 documentation master file, based off sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to GoodSciProjTemplate's Documentation!
-===============================================
+Welcome to some Documentation from NextGEMS cycle4 Hackathon!
+=============================================================
 
 .. note::
    Please consider that this project is under active development
@@ -40,12 +40,11 @@ Contents
    :maxdepth: 1
 
    usage/getstart
+   src/index
+
+   GitHub Repo <https://github.com/yoctoyotta1024/NextGEMS_hackathon_cycle4.git>
    usage/ourdocs
    usage/ourtests
-   src_py/index
-   src_cxx/index
-
-   GitHub Repo <https://github.com/yoctoyotta1024/GoodSciProjTemplate.git>
    usage/contributing
    usage/contact
    references

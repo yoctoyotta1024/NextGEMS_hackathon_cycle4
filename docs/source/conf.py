@@ -1,14 +1,14 @@
 '''
 Copyright (c) 2024 MPI-M, Clara Bayley
 
------ GoodSciProjTemplate -----
+----- NextGEMS_hackathon_cycle4 -----
 File: conf.py
 Project: source
 Created Date: Tuesday 27th February 2024
 Author: Clara Bayley (CB)
 Additional Contributors:
 -----
-Last Modified: Tuesday 27th February 2024
+Last Modified: Tuesday 5th March 2024
 Modified By: CB
 -----
 License: BSD 3-Clause "New" or "Revised" License
@@ -38,7 +38,7 @@ sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'GoodSciProjTemplate'
+project = 'NextGEMS_hackathon_cycle4'
 license = 'BSD 3-Clause'
 copyright = '(2024) MPI-M, Clara Bayley'
 author = 'Clara Bayley & Other Developers'
