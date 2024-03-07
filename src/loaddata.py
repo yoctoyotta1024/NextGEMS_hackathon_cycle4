@@ -3,8 +3,8 @@ Copyright (c) 2024 MPI-M, Clara Bayley
 
 
 ----- NextGEMS_hackathon_cycle4 -----
-File: run_python.py
-Project: scripts
+File: loaddata.py
+Project: src
 Created Date: Tuesday 5th March 2024
 Author: Clara Bayley (CB)
 Additional Contributors:
@@ -16,15 +16,12 @@ License: BSD 3-Clause "New" or "Revised" License
 https://opensource.org/licenses/BSD-3-Clause
 -----
 File Description:
+source file for loading hackathon ICON and/or IFS datasets
 '''
 
 
-import sys
-import pathlib
+import numpy as np
 
-path = str(pathlib.Path(__file__).parent.resolve())
-sys.path.append(path+'/../libs/') # add path to src_py to PATH
+def print_data():
 
-from src.loaddata import *
-
-print_data()
+  print("Hello Hackacthon")
