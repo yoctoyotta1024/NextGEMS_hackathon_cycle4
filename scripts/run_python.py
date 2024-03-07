@@ -23,8 +23,8 @@ import sys
 import pathlib
 
 path = str(pathlib.Path(__file__).parent.resolve())
-sys.path.append(path+'/../libs/') # add path to src_py to PATH
+sys.path.append(path+'/../src/') # add path to project src folder to PATH
 
-from src.loaddata import *
+from loaddata import *
 
 print_data()
