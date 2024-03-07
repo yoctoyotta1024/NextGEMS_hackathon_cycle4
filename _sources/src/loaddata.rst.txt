@@ -1,7 +1,7 @@
 Python Source Module
 ====================
 
-.. automodule:: src.src
+.. automodule:: src.loaddata
    :members:
    :undoc-members:
    :private-members:
