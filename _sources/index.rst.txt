@@ -29,8 +29,7 @@ Useful Links
 
 * `List of variables' names <https://owncloud.gwdg.de/index.php/s/G6xEfuoHOZLB3Kt>`_
 
-* `List of variables' locations (interactive)
-<https://swift.dkrz.de/v1/dkrz_b381d76e-63d7-4aeb-96f0-dfd91e102d40/nextgems_prefinal/nextgems_prefinal_output_anim.html>`_
+* `Interactive list of variables' locations <https://swift.dkrz.de/v1/dkrz_b381d76e-63d7-4aeb-96f0-dfd91e102d40/nextgems_prefinal/nextgems_prefinal_output_anim.html>`_
 
 * `Piotr Dziekan / NextGEMS_lowclouds project <https://gitlab.dkrz.de/b382446/nextgems_lowclouds>`_
 
